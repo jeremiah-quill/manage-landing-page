@@ -36,13 +36,20 @@
     <img class="bg-accent bg-accent-1" src="images/bg-tablet-pattern.svg" alt="background pattern">
 		<header class="main-header">
 				<img src="images/logo.svg" alt="manage logo" />
+
+        
 			<button class="hamburger">
 				<img src="images/icon-hamburger.svg" alt="hamburger icon" />
 			</button>
-			<nav></nav>
+			<nav class="main-nav"><ul><li><a href="#">Pricing</a></li>
+			<li><a href="#">Product</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Community</a></li></ul></nav>
+			<!-- <button class="accent-btn">Get Started</button> -->
 		</header>
 
-		<div class="flex">
+		<div class="flex section-1">
 			<img
 				class="charts flex-item"
 				src="images/illustration-intro.svg"
@@ -58,7 +65,7 @@
 			</div>
 		</div>
 
-		<div class="flex">
+		<div class="flex section-2">
 			<div class="flex-item main-content">
 				<h3 class="section-title">What's different about Manage?</h3>
 				<p>
@@ -67,7 +74,7 @@
 					teams.
 				</p>
 			</div>
-			<div class="flex-item">
+			<div class="steps flex-item">
 				<div class="step">
 					<header>
 						<div class="step-label">01</div>
@@ -79,8 +86,6 @@
 						smallest of details. Never lose sight of the bigger picture again.
 					</p>
 				</div>
-			</div>
-			<div class="flex-item">
 				<div class="step">
 					<header>
 						<div class="step-label">02</div>
@@ -91,9 +96,7 @@
 						goals. Our customizable dashboard helps you build out the reports
 						you need to keep key stakeholders informed.
 					</p>
-				</div>
 			</div>
-			<div class="flex-item">
 				<div class="step">
 					<header>
 						<div class="step-label">03</div>
@@ -105,7 +108,7 @@
 						team productivity solution.
 					</p>
 				</div>
-			</div>
+		</div>
 		</div>
 		<h3 class="section-title">What they've said</h3>
 		<div class="feedback-slider">
@@ -136,14 +139,14 @@
 			<div class="dot"></div>
 			<div class="dot"></div>
 		</div>
-		<button class="accent-btn">Get Started</button>
+		<button class="accent-btn middle">Get Started</button>
 		<div class="bottom-cta">
 			<h2>Simplify how your team works today.</h2>
 			<button class="accent-btn">Get Started</button>
 		</div>
 
 		<footer>
-			<form action="submit"><input type="email" /><button class="accent-btn">GO</button></form>
+			<form class="email-form" action="submit"><input type="email" placeholder="Sign Up for Updates" /><button class="accent-btn">GO</button></form>
 			<nav class="footer-nav">
 				<ul>
 					<li><a href="#">Home</a></li>
@@ -172,18 +175,16 @@
 					<img src="images/icon-instagram.svg" alt="instagram icon" />
 				</button>
 			</div>
-			<div class="logo-group footer-logo-group">
-				<img src="images/logo.svg" alt="manage logo" />
-				<h1 class="title">manage</h1>
-			</div>
-			<p>Copyright 2022. All Rights Reserved</p>
+				<img class="footer-logo" src="images/logo.svg" alt="manage logo" />
+			<p class="copyright">Copyright 2022. All Rights Reserved</p>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
 		</footer>
 
-		<div class="attribution">
-			Challenge by
-			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-				>Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
-		</div>
+
 	</body>
 </html>
